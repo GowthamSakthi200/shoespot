@@ -1,0 +1,197 @@
+.welcome
+{
+    height: 25px;
+    width: 100%;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 10px;
+    background-color: black;
+    border: none;
+    color: white;
+ 
+} 
+.header
+{
+    display: flex;
+}
+.header p
+{
+    padding-top: 9px;
+}
+input
+{
+    margin-left: 67%;
+    height: 25px;
+    margin-top: 20px;
+}
+a
+{
+    border: 2px solid black;
+    height: 15px;
+    width: 50px;
+    margin-top: 20px;
+    text-align: center;
+    border: none;
+}
+a:link
+{
+    color: black;
+}
+a:visited
+{
+    color: black;
+}
+a:hover
+{
+    border: 2px solid black;
+    height: 19px;
+    width: 58px;
+    background-color: black;
+    color: white;
+    transition-duration: 0.5s;
+    border-radius:10px;
+}
+.header h3
+{
+    border: 3px solid black;
+    height: 25px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+.offer
+{
+    border: 20px  #abadb8;
+    border-style: groove;
+    border-color:;
+    width: 40%;
+    height: 380px;
+    padding-top: 0px;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+.offer pre
+{
+    font-style: oblique;
+    animation-name: offer;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: relative;
+    letter-spacing: 0.4rem;
+    font-size: 18px;
+}
+@keyframes offer
+{
+    from
+    {
+        top: 0px;
+    }
+    to
+    {
+        bottom: 30px;
+    }
+}
+.pic img
+{
+    height: 425px;
+    width: 700px;
+    margin-left: 40px;
+    animation: pic 5s infinite ease-in-out;
+    position: relative;    
+}
+
+.add
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product 
+{
+    border: 3px solid black;
+    font-size: 30px;
+    text-align: center;
+    
+}
+.pro
+{
+    border: 1px solid black;
+    border-radius: 18px;
+    width: 320px;
+    padding: 10px;
+    margin: 10;
+    align-content: center;
+    text-align: center;
+    transition: 200ms;
+    margin-left: 25px;
+    border: none;
+}
+.pro:hover
+{
+   width: 335px; 
+}
+.btn
+{
+    border-radius: 8px;
+    border: 2px solid black;
+    height: 40px;
+    width: 100px;
+}
+.btn:hover
+{
+    height: 50px;
+    width: 120px;
+}
+.main
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.explore
+{
+    margin-left: 45%;
+    height: 55px;
+    width: 150px;
+    margin-top: 40px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-top: 0px;
+}
+.explore:hover
+{
+    background-color: black;
+    color: white;
+    transition-duration: 0.4s;
+}
+.end
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    padding-left: 570px;
+}
+.end1
+{
+    border: 20px solid black;
+}
+.end1:hover
+{
+    text-underline-position: below;
+}
+.bottom
+{
+    display: flex;
+    padding-left: 650px;
+}
+.end2
+{
+    text-align: end;
+}
