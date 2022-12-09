@@ -150,6 +150,7 @@ a:hover
 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .explore
 {
